@@ -1,4 +1,6 @@
-/********** Template CSS **********/
+/* ********* Template CSS **********/
+
+
 :root {
   --primary: #eb662b;
   --light: #f1f8ff;
@@ -236,7 +238,7 @@ p {
   border-radius: 38px 38px 0 0;
 }
 
-/*** Footer ***/
+/* ** Footer ** */
 .footer .btn.btn-social {
   margin-right: 5px;
   width: 35px;
@@ -299,4 +301,20 @@ p {
   margin-right: 0;
   padding-right: 0;
   border-right: none;
+} 
+
+/* Uchenna Joel Eze styling */
+
+.card{
+          border-radius: 10px;
+}
+
+.footer{
+  background-image: url(/img/images\ \(1\).png);
+
+}
+
+.trips{
+  color: white;
+  
 }
