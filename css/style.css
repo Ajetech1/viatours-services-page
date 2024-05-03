@@ -6,7 +6,9 @@
   --light: #f1f8ff;
   --dark: white;
 }
-
+p {
+  font-size: 12px;
+}
 .ff-secondary {
   font-family: "Pacifico", cursive;
 }
