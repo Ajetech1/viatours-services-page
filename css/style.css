@@ -310,7 +310,8 @@ p {
 }
 
 .footer {
-  background-image: url(/img/images\\(1\).png);
+  background-image: url();
+  background-color: #e0430012;
 }
 
 .trips {
