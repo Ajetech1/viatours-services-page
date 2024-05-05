@@ -53,8 +53,8 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #666565;
-  background-color: #f1f8ff;
+  color: #05073c;
+  background-color: #ffffff;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -133,7 +133,7 @@ h5,
 }
 h6,
 .h6 {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 p {
   margin-top: 0;
