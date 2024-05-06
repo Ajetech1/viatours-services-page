@@ -29,12 +29,11 @@ p {
   transition: 0.5s;
 }
 
-/**
 .btn.btn-primary,
 .btn.btn-secondary {
   color: #ffffff;
 }
-
+/**
 .btn-square {
   width: 38px;
   height: 38px;
