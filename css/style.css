@@ -21,14 +21,6 @@ p {
   font-weight: 700 !important;
 }
 
-.back-to-top {
-  position: fixed;
-  display: none;
-  right: 45px;
-  bottom: 45px;
-  z-index: 99;
-}
-
 /*** Button ***/
 .btn {
   font-family: "Inter", sans-serif;
@@ -37,6 +29,7 @@ p {
   transition: 0.5s;
 }
 
+/**
 .btn.btn-primary,
 .btn.btn-secondary {
   color: #ffffff;
@@ -67,7 +60,7 @@ p {
   font-weight: normal;
   border-radius: 2px;
 }
-
+**/
 /*** Navbar ***/
 .navbar-dark .navbar-nav .nav-link {
   position: relative;
@@ -80,7 +73,7 @@ p {
   outline: none;
   transition: 0.5s;
 }
-
+/*
 .sticky-top.navbar-dark .navbar-nav .nav-link {
   padding: 20px 0;
 }
@@ -98,6 +91,7 @@ p {
 .sticky-top.navbar-dark .navbar-brand img {
   max-height: 45px;
 }
+*/
 
 @media (max-width: 991.98px) {
   .sticky-top.navbar-dark {
@@ -136,109 +130,7 @@ p {
   }
 }
 
-/*** Hero Header ***/
-.hero-header {
-  background: linear-gradient(rgba(15, 23, 43, 0.9), rgba(15, 23, 43, 0.9)),
-    url(../img/bg-hero.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.hero-header img {
-  animation: imgRotate 50s linear infinite;
-}
-
-@keyframes imgRotate {
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-.breadcrumb-item + .breadcrumb-item::before {
-  color: rgba(255, 255, 255, 0.5);
-}
-
-/*** Section Title ***/
-.section-title {
-  position: relative;
-  display: inline-block;
-}
-
-.section-title::before {
-  position: absolute;
-  content: "";
-  width: 45px;
-  height: 2px;
-  top: 50%;
-  left: -55px;
-  margin-top: -1px;
-  background: var(--primary);
-}
-
-.section-title::after {
-  position: absolute;
-  content: "";
-  width: 45px;
-  height: 2px;
-  top: 50%;
-  right: -55px;
-  margin-top: -1px;
-  background: var(--primary);
-}
-
-.section-title.text-start::before,
-.section-title.text-end::after {
-  display: none;
-}
-
-/*** Service ***/
-.service-item {
-  box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
-  transition: 0.5s;
-}
-
-.service-item:hover {
-  background: var(--primary);
-}
-
-.service-item * {
-  transition: 0.5s;
-}
-
-.service-item:hover * {
-  color: var(--light) !important;
-}
-
-/*** Food Menu ***/
-.nav-pills .nav-item .active {
-  border-bottom: 2px solid var(--primary);
-}
-
-/*** Team ***/
-.team-item {
-  box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
-  height: calc(100% - 38px);
-  transition: 0.5s;
-}
-
-.team-item img {
-  transition: 0.5s;
-}
-
-.team-item:hover img {
-  transform: scale(1.1);
-}
-
-.team-item:hover {
-  height: 100%;
-}
-
-.team-item .btn {
-  border-radius: 38px 38px 0 0;
-}
-
-/* ** Footer ** */
+/* ** Footer
 .footer .btn.btn-social {
   margin-right: 5px;
   width: 35px;
@@ -302,6 +194,7 @@ p {
   padding-right: 0;
   border-right: none;
 }
+**/
 
 /* Uchenna Joel Eze styling */
 
